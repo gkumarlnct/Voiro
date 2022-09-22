@@ -119,6 +119,9 @@
                                         <rect key="frame" x="12" y="8" width="390" height="44"/>
                                         <color key="barTintColor" red="0.97254901960784312" green="0.97254901960784312" blue="0.97254901960784312" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <outlet property="delegate" destination="BYZ-38-t0r" id="yBo-7v-Mrm"/>
+                                        </connections>
                                     </searchBar>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -152,6 +155,7 @@
                     <navigationItem key="navigationItem" id="ah4-ys-ePa"/>
                     <connections>
                         <outlet property="movieListTblVw" destination="NWI-Qd-sET" id="NPn-gX-7mo"/>
+                        <outlet property="searchBar" destination="QxD-WN-mRL" id="cnl-Wn-BCj"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -194,7 +198,7 @@
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Movies" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UHW-6q-3Xc">
-                                                    <rect key="frame" x="174.5" y="161" width="65.5" height="24"/>
+                                                    <rect key="frame" x="8" y="161" width="398" height="24"/>
                                                     <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -323,6 +327,7 @@
                                                 <constraint firstAttribute="trailing" secondItem="end-Qx-cKA" secondAttribute="trailing" constant="8" id="BO4-IC-nGh"/>
                                                 <constraint firstAttribute="trailing" secondItem="bXs-MV-62I" secondAttribute="trailing" constant="8" id="Cch-29-tlg"/>
                                                 <constraint firstAttribute="trailing" secondItem="5eP-Bq-XzU" secondAttribute="trailing" constant="8" id="Gef-Pc-ciw"/>
+                                                <constraint firstItem="UHW-6q-3Xc" firstAttribute="leading" secondItem="TmK-ky-FwB" secondAttribute="leading" constant="8" id="JWz-Qu-NAZ"/>
                                                 <constraint firstItem="52D-hD-5lr" firstAttribute="centerX" secondItem="TmK-ky-FwB" secondAttribute="centerX" id="KLM-c6-bat"/>
                                                 <constraint firstItem="end-Qx-cKA" firstAttribute="top" secondItem="5eP-Bq-XzU" secondAttribute="bottom" constant="8" id="LdJ-bS-g3A"/>
                                                 <constraint firstItem="zE6-wg-3xr" firstAttribute="top" secondItem="An6-yR-8EE" secondAttribute="bottom" constant="8" id="Ljd-hw-BvX"/>
@@ -337,6 +342,7 @@
                                                 <constraint firstItem="Nza-VU-P7u" firstAttribute="top" secondItem="zE6-wg-3xr" secondAttribute="bottom" constant="8" id="bpu-Rs-y3Y"/>
                                                 <constraint firstItem="Nza-VU-P7u" firstAttribute="leading" secondItem="TmK-ky-FwB" secondAttribute="leading" constant="8" id="l6X-K0-iV9"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="yVY-QL-FWQ" secondAttribute="trailing" id="miJ-h6-Anf"/>
+                                                <constraint firstAttribute="trailing" secondItem="UHW-6q-3Xc" secondAttribute="trailing" constant="8" id="mpf-Bp-WXO"/>
                                                 <constraint firstItem="yVY-QL-FWQ" firstAttribute="top" secondItem="TmK-ky-FwB" secondAttribute="topMargin" id="nnb-E7-LW5"/>
                                                 <constraint firstItem="5eP-Bq-XzU" firstAttribute="top" secondItem="Nza-VU-P7u" secondAttribute="bottom" constant="8" id="ns8-nx-coX"/>
                                                 <constraint firstItem="Gm9-cR-WJq" firstAttribute="leading" secondItem="TmK-ky-FwB" secondAttribute="leading" constant="8" id="phN-9u-aLN"/>

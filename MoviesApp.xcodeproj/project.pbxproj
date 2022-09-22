@@ -21,10 +21,9 @@
 		F44EED8F28D9D4980042F7D8 /* MoviesAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44EED8E28D9D4980042F7D8 /* MoviesAppUITestsLaunchTests.swift */; };
 		F44EED9C28D9D4FA0042F7D8 /* movieModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44EED9B28D9D4FA0042F7D8 /* movieModal.swift */; };
 		F44EED9E28DA22B60042F7D8 /* moviesDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44EED9D28DA22B60042F7D8 /* moviesDetailVC.swift */; };
-		F44EEDA028DAB96A0042F7D8 /* TransactionListI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44EED9F28DAB96A0042F7D8 /* TransactionListI.swift */; };
+		F44EEDA028DAB96A0042F7D8 /* moviesListI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44EED9F28DAB96A0042F7D8 /* moviesListI.swift */; };
 		F44EEDA228DAB98E0042F7D8 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44EEDA128DAB98E0042F7D8 /* WebService.swift */; };
 		F44EEDA428DAB9B70042F7D8 /* movieList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44EEDA328DAB9B60042F7D8 /* movieList.swift */; };
-		F44EEDA628DABA6A0042F7D8 /* URLRequestSigner.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44EEDA528DABA6A0042F7D8 /* URLRequestSigner.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,10 +68,9 @@
 		F44EED8E28D9D4980042F7D8 /* MoviesAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		F44EED9B28D9D4FA0042F7D8 /* movieModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = movieModal.swift; sourceTree = "<group>"; };
 		F44EED9D28DA22B60042F7D8 /* moviesDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moviesDetailVC.swift; sourceTree = "<group>"; };
-		F44EED9F28DAB96A0042F7D8 /* TransactionListI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionListI.swift; sourceTree = "<group>"; };
+		F44EED9F28DAB96A0042F7D8 /* moviesListI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = moviesListI.swift; sourceTree = "<group>"; };
 		F44EEDA128DAB98E0042F7D8 /* WebService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
 		F44EEDA328DAB9B60042F7D8 /* movieList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = movieList.swift; sourceTree = "<group>"; };
-		F44EEDA528DABA6A0042F7D8 /* URLRequestSigner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLRequestSigner.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,7 +111,6 @@
 				6EDE3C7A8BA958DE71BA81F2 /* Pods-MoviesAppTests.debug.xcconfig */,
 				8B7C36A030E69B683B8DD232 /* Pods-MoviesAppTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -152,8 +149,7 @@
 		F44EED6A28D9D4920042F7D8 /* MoviesApp */ = {
 			isa = PBXGroup;
 			children = (
-				F44EEDA528DABA6A0042F7D8 /* URLRequestSigner.swift */,
-				F44EED9F28DAB96A0042F7D8 /* TransactionListI.swift */,
+				F44EED9F28DAB96A0042F7D8 /* moviesListI.swift */,
 				F44EEDA128DAB98E0042F7D8 /* WebService.swift */,
 				F44EED6B28D9D4920042F7D8 /* AppDelegate.swift */,
 				F44EED6D28D9D4920042F7D8 /* SceneDelegate.swift */,
@@ -425,13 +421,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F44EEDA028DAB96A0042F7D8 /* TransactionListI.swift in Sources */,
+				F44EEDA028DAB96A0042F7D8 /* moviesListI.swift in Sources */,
 				F44EED9C28D9D4FA0042F7D8 /* movieModal.swift in Sources */,
 				F44EEDA428DAB9B70042F7D8 /* movieList.swift in Sources */,
 				F44EEDA228DAB98E0042F7D8 /* WebService.swift in Sources */,
 				F44EED9E28DA22B60042F7D8 /* moviesDetailVC.swift in Sources */,
 				F44EED7028D9D4920042F7D8 /* ViewController.swift in Sources */,
-				F44EEDA628DABA6A0042F7D8 /* URLRequestSigner.swift in Sources */,
 				F44EED6C28D9D4920042F7D8 /* AppDelegate.swift in Sources */,
 				F44EED6E28D9D4920042F7D8 /* SceneDelegate.swift in Sources */,
 			);

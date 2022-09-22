@@ -8,7 +8,7 @@
 
 import Foundation
 import UIKit
-class TransactionListI
+class moviesListI
 {
     class func getMoviesList(_ dict:NSDictionary, success:@escaping(NSDictionary)->Void)
     {

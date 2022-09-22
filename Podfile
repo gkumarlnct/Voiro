@@ -8,6 +8,8 @@ target 'MoviesApp' do
   # Pods for MoviesApp
 
  pod 'SDWebImage', '~> 5.0'
+ pod 'SVProgressHUD'
+
 
 
   target 'MoviesAppTests' do
